@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: clip;
+}
+.a1{
+    background-image: url(img/abstract-dotted-world-map-vector-illustration-dark-blue-world-map_592024-33.avif );
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: relative;
+    min-height: 60vh;
+    display: block;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.call-to-action {
+    padding: 80px 0;
+    position: relative;
+    clip-path: inset(0);
+}
+section, .section {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 100px;
+    overflow: c1500
+}
+.dark-background {
+    --background-color: #0a1629;
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --surface-color: #19335c;
+    --contrast-color: #ffffff;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.call-to-action img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+    
+
+    .call-to-action .container {
+        position: relative;
+        z-index: 3;
+        
+    }
+    .slider-bg{
+        background-image: url(img/testimonials-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+      width: 100%;
+      margin-top: 30px;
+    }
